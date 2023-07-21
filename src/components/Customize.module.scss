@@ -1,0 +1,75 @@
+.customize {
+    padding: 0 60px;
+    background-color: #2A313C;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+
+
+    &_image {
+        height: 100%;
+        flex: 0 1 50%;
+
+        &_img {
+            margin: 0;
+            height: 100%;
+        }
+    }
+
+    &_info {
+        flex:  0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 45px;
+
+        &_logo {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 16px;
+            font-family: Orbitron;
+            line-height: 16px;
+            color: #57B8FF;
+            margin: 0;
+        }
+
+        &_title {
+            font-size: 64px;
+            font-family: Orbitron;
+            line-height: 74px;
+            color: white;
+            margin: 0;
+        }
+
+        &_subtitle {
+            font-size: 20px;
+            font-family: Orbitron;
+            line-height: 30px;
+            color: #DFDFDF;
+            margin: 0;
+        }
+
+        &_gallery {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+
+            &_item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.active {
+    background-color: #3B3D46;
+    padding: 10px;
+    border-radius: 20px;
+}
